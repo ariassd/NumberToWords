@@ -3,6 +3,10 @@ using System.Text.RegularExpressions;
 
 namespace NumberToWords
 {
+    /// <summary>
+    /// Luis Arias [ariassd@gmail.com]
+    /// Octubre 2019
+    /// </summary>
     public static class DecimalToWords
     {
         private static readonly string[] UNITS =
