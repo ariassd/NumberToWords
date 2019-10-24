@@ -15,7 +15,7 @@ namespace NumberToWords
         private static readonly string[] TENS =
             {NumberToWordResources.ten, NumberToWordResources.eleven, NumberToWordResources.twelve, NumberToWordResources.thirteen, NumberToWordResources.fourteen,
             NumberToWordResources.fifteen, NumberToWordResources.sixteen, NumberToWordResources.seventeen, NumberToWordResources.eighteen, NumberToWordResources.nineteen,
-            NumberToWordResources.twenty, NumberToWordResources.thirty,  NumberToWordResources.forty,  NumberToWordResources.fifty,  NumberToWordResources.sixty,
+            NumberToWordResources.twenty_and, NumberToWordResources.thirty,  NumberToWordResources.forty,  NumberToWordResources.fifty,  NumberToWordResources.sixty,
             NumberToWordResources.seventy, NumberToWordResources.eighty, NumberToWordResources.ninety};
         private static readonly string[] HUNDREDS =
             {"", NumberToWordResources.one_hundred, NumberToWordResources.Two_Hundred, NumberToWordResources.three_hundred, NumberToWordResources.four_hundred, NumberToWordResources.five_hundred,
@@ -68,7 +68,14 @@ namespace NumberToWords
         {
             int n = int.Parse(number);
             if (n < 10) return getUnits(number, false);
-            else if (n > 19)
+            else if (n == 20) return NumberToWordResources.twenty;
+            else if (n > 19 && n < 30)
+            {
+                string u = getUnits(number, false);
+                if (u.Equals("")) return TENS[int.Parse(number.Substring(0, 1)) + 8];
+                else return $"{TENS[int.Parse(number.Substring(0, 1)) + 8]}{u}";
+            }
+            else if (n > 29)
             {
                 string u = getUnits(number, false);
                 if (u.Equals("")) return TENS[int.Parse(number.Substring(0, 1)) + 8];
@@ -89,7 +96,6 @@ namespace NumberToWords
 
         private static string getThousands(string number)
         {
-            //if (int.Parse(number) == 1000) return NumberToWordResources.thousand;
             string c = number.Substring(number.Length - 3);
             string m = number.Substring(0, number.Length - 3);
             string n = "";

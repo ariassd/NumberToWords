@@ -277,7 +277,7 @@ namespace NumberToWords {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to diecinieve.
+        ///   Looks up a localized string similar to diecinueve.
         /// </summary>
         internal static string nineteen {
             get {
@@ -498,6 +498,15 @@ namespace NumberToWords {
         internal static string twenty {
             get {
                 return ResourceManager.GetString("twenty", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to veinti.
+        /// </summary>
+        internal static string twenty_and {
+            get {
+                return ResourceManager.GetString("twenty_and", resourceCulture);
             }
         }
         

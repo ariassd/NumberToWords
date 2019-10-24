@@ -5,3 +5,11 @@
 \\Mac\Home\Desktop\NumberToWords\NumberToWords\obj\Debug\NumberToWords.csproj.GenerateResource.cache
 \\Mac\Home\Desktop\NumberToWords\NumberToWords\obj\Debug\NumberToWords.exe
 \\Mac\Home\Desktop\NumberToWords\NumberToWords\obj\Debug\NumberToWords.pdb
+\\Mac\Home\Documents\Luis\NumberToWords\NumberToWords\NumberToWords\bin\Debug\NumberToWords.exe.config
+\\Mac\Home\Documents\Luis\NumberToWords\NumberToWords\NumberToWords\bin\Debug\NumberToWords.exe
+\\Mac\Home\Documents\Luis\NumberToWords\NumberToWords\NumberToWords\bin\Debug\NumberToWords.pdb
+\\Mac\Home\Documents\Luis\NumberToWords\NumberToWords\NumberToWords\obj\Debug\NumberToWords.csprojAssemblyReference.cache
+\\Mac\Home\Documents\Luis\NumberToWords\NumberToWords\NumberToWords\obj\Debug\NumberToWords.NumberToWordResources.resources
+\\Mac\Home\Documents\Luis\NumberToWords\NumberToWords\NumberToWords\obj\Debug\NumberToWords.csproj.GenerateResource.cache
+\\Mac\Home\Documents\Luis\NumberToWords\NumberToWords\NumberToWords\obj\Debug\NumberToWords.exe
+\\Mac\Home\Documents\Luis\NumberToWords\NumberToWords\NumberToWords\obj\Debug\NumberToWords.pdb

@@ -187,7 +187,7 @@
     <value>nueve</value>
   </data>
   <data name="nineteen" xml:space="preserve">
-    <value>diecinieve</value>
+    <value>diecinueve</value>
   </data>
   <data name="ninety" xml:space="preserve">
     <value>noventa</value>
@@ -263,6 +263,9 @@
   </data>
   <data name="twenty" xml:space="preserve">
     <value>veinte</value>
+  </data>
+  <data name="twenty_and" xml:space="preserve">
+    <value>veinti</value>
   </data>
   <data name="two" xml:space="preserve">
     <value>dos</value>
