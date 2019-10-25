@@ -43,6 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DateToWords.cs" />
+    <Compile Include="DateToWordsResources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DateToWordsResources.resx</DependentUpon>
+    </Compile>
     <Compile Include="NumberToWordResources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -56,6 +62,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="DateToWordsResources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>DateToWordsResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="NumberToWordResources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>NumberToWordResources.Designer.cs</LastGenOutput>

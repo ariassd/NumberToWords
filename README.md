@@ -1,7 +1,20 @@
 # NumbersToWords
 Extension de la clase decimal para convertir números a letras, en español
+Extension de la clase DateTime para convertir fechas a letdas, en español.
 
-Ejemplo de uso
+Los formatos para las fechas son:
+
+|Formato                |Resultado                                              |
+|-----------------------|-------------------------------------------------------|
+|day_month              | veinticinco de octubre                                |
+|day_month_year         | veinticinco de octubre de dos mil diecinueve          |
+|dayName_day_month      | viernes veinticinco de octubre                        |
+|dayName_day_month_year | viernes veinticinco de octubre de dos mil diecinueve	|
+|month_year             | octubre de dos mil diecinueve                         |
+
+
+
+Ejemplo de uso de numeros a letras
 
 ```c#
 var a = 1312313.13m;
@@ -15,6 +28,20 @@ Console.WriteLine(n.ToWords(false));
 
 ```
 
-```bash
+```sh
 un millón trecientos doce mil trecientos trece con trece céntimos
+```
+
+
+Ejemplo de uso de fechas a letras
+
+
+```c#
+var date = DateTime.Now.ToWords(DateToWords.DateFormat.dayName_day_month_year);
+
+Console.WriteLine($"hoy es {date}");
+```
+
+```sh
+hoy es viernes veinticinco de octubre de dos mil diecinueve
 ```

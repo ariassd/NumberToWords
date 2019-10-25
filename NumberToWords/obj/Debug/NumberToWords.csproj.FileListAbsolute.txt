@@ -13,3 +13,4 @@
 \\Mac\Home\Documents\Luis\NumberToWords\NumberToWords\NumberToWords\obj\Debug\NumberToWords.csproj.GenerateResource.cache
 \\Mac\Home\Documents\Luis\NumberToWords\NumberToWords\NumberToWords\obj\Debug\NumberToWords.exe
 \\Mac\Home\Documents\Luis\NumberToWords\NumberToWords\NumberToWords\obj\Debug\NumberToWords.pdb
+\\Mac\Home\Documents\Luis\NumberToWords\NumberToWords\NumberToWords\obj\Debug\NumberToWords.DateToWordsResources.resources
