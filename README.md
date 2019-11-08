@@ -1,7 +1,7 @@
 # NumbersToWords
 Extension de la clase decimal para convertir números a letras, en español.
 
-Extension de la clase DateTime para convertir fechas a letdas, en español.
+Extension de la clase DateTime para convertir fechas a letras, en español.
 
 El método de extensión de fechas posee un parametro opcional llamado format que es del tipo ``` DateFormat ```
 Los formatos para las fechas son:
@@ -15,12 +15,12 @@ Los formatos para las fechas son:
 |month_year             | octubre de dos mil diecinueve                         |
 
 
-Para usarolo solamente se debe de agregr el using de la libreria o namespace de las extensiones en el caso de que se encuentren en un namespace diferente del que se desea usar.
+Para usarolo solamente se debe de agregar el using de la librería o namespace de las extensiones en el caso de que se encuentren en un namespace diferente del que se desea usar.
 
 
 
 
-Ejemplo de uso de numeros a letras
+Ejemplo de uso de números a letras
 
 ```c#
 
